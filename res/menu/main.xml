@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.actionbartest.MainActivity" >
+<item android:title="Submenu">
+    <menu>
+        <item
+            android:id="@+id/action_login"
+            android:icon="@drawable/login"
+            android:orderInCategory="2"
+            android:showAsAction="ifRoom"
+            android:title="Login">
+        </item>
+        <item
+            android:id="@+id/action_edit"
+            android:icon="@drawable/edit"
+            android:orderInCategory="1"
+            android:showAsAction="never"
+            android:title="Edit"/>
+    </menu>
+</item>
+</menu>
